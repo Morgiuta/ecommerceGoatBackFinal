@@ -1,0 +1,95 @@
+# =========================
+# ENVIRONMENT VARIABLES
+# =========================
+.env
+.env.*
+.env.local
+.env.production
+.env.test
+.envrc
+.secrets/
+
+# =========================
+# LOGS
+# =========================
+git_logs.txt
+logs/
+*.log
+*.pid
+
+# =========================
+# PYTHON CACHE / BUILD
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+__pypackages__/
+.pytype/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# VIRTUAL ENVS
+# =========================
+venv/
+.venv/
+ENV/
+env/
+
+# =========================
+# TESTING / COVERAGE
+# =========================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+*.cover
+.hypothesis/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# =========================
+# LOAD TEST RESULTS
+# =========================
+load_test_results.html
+locust_*.html
+
+# =========================
+# DOCKER (DATA / OVERRIDES)
+# =========================
+postgres_data/
+redis_data/
+docker-compose.override.yml
+
+# =========================
+# DATABASE FILES (SI EXISTEN)
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================
+# STATIC / MEDIA (runtime)
+# =========================
+staticfiles/
+media/
+uploads/
+
+# =========================
+# DISTRIBUTION / PACKAGING
+# =========================
+build/
+dist/
+*.egg-info/
